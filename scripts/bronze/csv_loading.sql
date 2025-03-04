@@ -1,6 +1,6 @@
 ## Bronze Layer Data Load Procedure
 
-### Overview
+/* ### Overview
 The `load_bronze` stored procedure is designed to load data into the Bronze layer of our data warehouse. It performs the following tasks:
 
 1. **Truncates Existing Data**: Before loading new data, the procedure truncates the existing tables in the Bronze layer to ensure that the data is fresh and up-to-date.
@@ -13,6 +13,8 @@ To execute the procedure, run the following command in your SQL Server environme
 
 ```sql
 EXEC bronze.load_bronze;
+
+*/
 
 
 
